@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-45deg, #f8f7f6, #959dc2, #525fa0, #171a5081);
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #959dc2;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.nav-list {
+    display: flex;
+}
+.nav-list li {
+    margin-right: 2em;
+    margin-top: .8em;
+}
+.nav-list a{
+    color: black;
+
+}
+
+section {
+    margin: 5.5em 0 0 0;
+}
