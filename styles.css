@@ -3,9 +3,10 @@ html {
 }
 
 body {
-    background: linear-gradient(-45deg, #f8f7f6, #959dc2, #525fa0, #171a5081);
+    background: linear-gradient(-45deg, #f8f7f6, #525fa0, #171a5081);
     background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
+    z-index: -10;
 }
 
 @keyframes gradient {
@@ -23,28 +24,51 @@ body {
 ul {
     list-style: none;
 }
+#aplogo img {
+box-sizing:content-box;
+max-height: 4em;
+max-width: 10em;
+margin: .5em 0 0 .5em;
+}
 
-.nav {
+#prlogo img {
+    box-sizing:content-box;
+    max-height: 13em;
+    max-width: 13em;
+    margin: .5em 0 0 .5em;
+    }
+
+#nav-row{
     display: flex;
     justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #959dc2;
+    max-height: 4em;
+    background-color: #525fa0;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: -1;
+    z-index: 100;
 }
-.nav-list {
-    display: flex;
-}
-.nav-list li {
-    margin-right: 2em;
-    margin-top: .8em;
-}
-.nav-list a{
-    color: black;
 
+#nav-row p:hover {
+    color:aqua;
+}
+
+#section-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 4em;
+    z-index: 0;
+}
+
+#nav-row p {
+    padding-top: 1em;
+}
+
+.nav-row a {
+    color: black;
 }
 
 section {
