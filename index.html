@@ -4,64 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRomero Frontend Design</title>
+    <title>PRomero Devs</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/88429e7dc0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
         <header class="header">
-            <nav id="navbar">
-                <div class="container">
-                    <div class="row" id="nav-row" role="navigation">
-                        <div class="col-sm-8" id="aplogo" style="background-color:blue ;"><img class="img-responsive" src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1659143423/APLogo-20-20.png"><img class="img-responsive" src="https://argentinaprograma.inti.gob.ar/theme/moove/pix/LogosInti.png"></div>
-                        <div class="col-sm-1"><p>About</p></div>
-                        <div class="col-sm-1"><p>Portfolio</p></div>
-                        <div class="col-sm-1"><p>Contact</p></div>
-                        <div class="col-sm-1"><p>Login</p></div>
-                    </div>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end col-md-6" id="navbarCollapse">
+                    <ul class="navbar-nav me-0 mb-2 mb-md-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                      </li>
+                    </ul>
+                  </div>
+                  
                 </div>
-            </nav>
+              </nav>
+            <div id="aplogo"><img class="img-responsive" src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1659143423/APLogo-20-20.png"><img class="img-responsive" src="https://argentinaprograma.inti.gob.ar/theme/moove/pix/LogosInti.png"></div>
         </header>
-            <section class="welcome-section">
-                <div class="container">
+            <div id="Intro">
+                <div class="container-fluid">
                     <div class="row" id="section-logo">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-4" id="prlogo"><img class="img-responsive" src="https://i.ibb.co/y49hC5F/Logo-removebg-preview-2.png"></div>
-                        <div class="col-sm-2"></div>
+                        <div class="col-4 col-md-4 " style="background-color: red;"></div>
+                        <div class="col-4 col-md-4 d-flex justify-content-center" id="prlogo" style="background-color: green;"><img class="img-responsive justify-content-between" src="https://i.ibb.co/y49hC5F/Logo-removebg-preview-2.png"></div>
+                        <div class="col-4 col-md-4" style="background-color: blue;"></div>
                     </div>
                 </div>
-            </section>
-            <section class="jobs-section">
-                <h3>My portfolio</h3>
-                <!-- Later to fill -->
-            </section>
-            <section class="contact-section">
-                <h3>Let's work together</h3>
-                <p>Feel free to contact me with your projects in mind</p>
-                <div class="contact-links">
-                    <a
-            id="facebook-profile"
-            href="https://facebook.com/Pablo.Romero95"
-            target="_blank"
-            class="btn contact-details"
-            ><i class="fab fa-facebook-square"></i> Facebook</a
-            >
-            <a
-            id="profile-link"
-            href="https://github.com/pabloromero95"
-            target="_blank"
-            class="btn contact-details"
-            ><i class="fab fa-github"></i> GitHub</a
-            >
-            <a href="mailto:pabloromeroenjamio@gmail.com" class="btn contact-details"
-            ><i class="fas fa-at"></i> Mail me</a
-            >
-        </div>
+                <br>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-2 col-md-2" style="background-color: red;"></div>
+                        <div class="col-8 col-md-8 d-flex justify-content-center" style="background-color: green;"><h1>Hi! I'm Pablo Romero</h1></div>
+                        <div class="col-2 col-md-2" style="background-color: blue;"></div>
+                    </div>
+                    <br>
+                    <div class="row"> 
+                        <div class="col-2 col-md-2" style="background-color: red;"></div>
+                        <div class="col-8 col-md-8 d-flex justify-content-center" style="background-color: green;">
+                            <h4>Passionate about technology, my job
+                            is to find the solutions that are needed
+                            in the most efficient way possible. <br>
+                            
+                            Since I discovered programming, I discovered
+                            that I can take the solutions anywhere
+                            no matter the distance, where and when
+                            is required.</h4></div>
+                        <div class="col-2 col-md-2" style="background-color: blue;"></div>
+                    </div>  
+                    <div class="row">
+                        <p>About Me</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 col-md-1" style="background-color: red;"></div>
+                        <div class="col-10 col-md-10 d-flex justify-content-start" style="background-color: green;"><h1>Hi! I'm Pablo Romero</h1></div>
+                        <div class="col-1 col-md-1" style="background-color: blue;"></div>
+                    </div>
                 </div>
-            </section>
-            <footer class="footer">
+                <div class="container-fluid">
+                    <h3>Let's work together</h3>
+                    <p>Feel free to contact me with your projects in mind</p>
+                </div>
+                <div class="container-fluid">
+                    <a
+                    id="facebook-profile"
+                    href="https://facebook.com/Pablo.Romero95"
+                    target="_blank"
+                    class="btn contact-details"
+                    ><i class="fab fa-facebook-square"></i> Facebook</a>
+
+                    <a
+                    id="github-profile"
+                    href="https://github.com/pabloromero95"
+                    target="_blank"
+                    class="btn contact-details"
+                    ><i class="fab fa-github"></i> GitHub</a>
+
+                    <a href="mailto:pabloromeroenjamio@gmail.com" class="btn contact-details"
+                    ><i class="fas fa-at"></i> Mail me</a>
+
+                    <a
+                    id="linkedin-profile"
+                    href="https://www.linkedin.com/in/pablo-romero-enjamio/"
+                    target="_blank"
+                    class="btn contact-details"
+                    ><i class="fa fa-linkedin-square"></i>LinkedIn</a>
+                   
+                </div>
+            </div>
+            <footer class="container-fluid">
                 Disclaimer: This portfolio was created for the ArgentinaPrograma Project.
             </footer>
         </div>

@@ -24,53 +24,48 @@ body {
 ul {
     list-style: none;
 }
+
+.header {
+    display:flex;
+}
+
+#aplogo {
+    margin: 0 0 0 4em;
+}
+
 #aplogo img {
-box-sizing:content-box;
-max-height: 4em;
-max-width: 10em;
-margin: .5em 0 0 .5em;
+
+    box-sizing:content-box;
+    max-height: 4em;
+    max-width: 10em;
+}
+
+#prlogo {
+    padding: 0 0 0 -100px;
+    justify-content: center;
 }
 
 #prlogo img {
+
     box-sizing:content-box;
     max-height: 13em;
     max-width: 13em;
-    margin: .5em 0 0 .5em;
     }
 
-#nav-row{
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-height: 4em;
-    background-color: #525fa0;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: 100;
+.nav-item a:hover {
+    color:mediumblue;
 }
 
-#nav-row p:hover {
-    color:aqua;
-}
-
-#section-logo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-height: 4em;
+#section-logo {}
+    height: 15em;
     z-index: 0;
-}
-
-#nav-row p {
-    padding-top: 1em;
-}
-
-.nav-row a {
-    color: black;
+    margin-top: auto;
 }
 
 section {
     margin: 5.5em 0 0 0;
+}
+
+#navbar {
+    min-width:200px;
 }
