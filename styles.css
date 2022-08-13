@@ -52,6 +52,7 @@ body {
     animation: moveToLeft 3s ease-in;
     animation-delay: 0ms;
     min-width: 18rem;
+    text-align: center;
 }
 
 @keyframes moveToLeft {
@@ -95,16 +96,12 @@ ul {
     min-width: 40px;
 }
 
-/*.profileImg {
+.profileImg {
     background-color: red;
 }
 
 .row.infoTitle {
     background-color: blue;
-}
-
-.btn {
-    background-color: red;   
 }
 */
 
@@ -124,7 +121,8 @@ ul {
 }
 
 .butn {
-    margin:5px;
+    margin:1em 1em 0 0;
+   
 }
 
 .butn:hover {
