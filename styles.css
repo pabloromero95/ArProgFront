@@ -51,6 +51,7 @@ body {
 .name {
     animation: moveToLeft 3s ease-in;
     animation-delay: 0ms;
+    min-width: 18rem;
 }
 
 @keyframes moveToLeft {
@@ -72,17 +73,20 @@ ul {
 
 #aplogo {
     margin: 0 0 0 4em;
+    
 }
 
 #aplogo img {
     box-sizing:content-box;
     max-height: 4em;
-    max-width: 10em;
+    max-width: 16em;
     margin-left: -1em;
 }
 
 .nav-item a:hover {
     color:mediumblue;
+    text-decoration: underline;
+
 }
 
 .profileImg img {
@@ -104,6 +108,14 @@ ul {
 }
 */
 
+.row.infoTitle {
+    background-color: rgb(100, 255, 255, .3);
+    border-radius: 3%;
+}
+.row.data {
+    background-color: rgb(255, 200, 100, .3);
+    border-radius: 3%;
+}
 
 .row.data div:nth-child(2) {
     display: flex;
@@ -117,4 +129,15 @@ ul {
 
 .butn:hover {
     color: blue;
+}
+.btn:hover {
+    color:blue;
+    background-color: rgb(255, 200, 100, .3);
+
+}
+
+
+.about-text {
+    min-width: 18rem;
+    text-align: center;
 }
