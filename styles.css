@@ -33,6 +33,9 @@ body {
 
 #section-logo {
     background-color: white;
+    min-height: 24em;
+    margin-top:35px;
+
 }
 
 @keyframes moveToRight {
@@ -46,12 +49,12 @@ body {
 
 #prlogo img {
     box-sizing:content-box;
-    max-height: 25em;
-    max-width: 25em;
+    max-height: 15em;
+    max-width: 15em;
     z-index: 10;
     background: linear-gradient(220deg, #d6e90c, #e7a008, #d8c91c81);
     border-radius: 50%;
-    background-position: 100%, 100%;
+    margin-top: 5em;
     }
 
 .name {
