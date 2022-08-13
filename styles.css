@@ -31,6 +31,9 @@ body {
     animation-delay: 0ms;  
 }
 
+#section-logo {
+    background-color: white;
+}
 
 @keyframes moveToRight {
     0% {
@@ -46,6 +49,9 @@ body {
     max-height: 25em;
     max-width: 25em;
     z-index: 10;
+    background: linear-gradient(220deg, #d6e90c, #e7a008, #d8c91c81);
+    border-radius: 50%;
+    background-position: 100%, 100%;
     }
 
 .name {
@@ -95,7 +101,7 @@ ul {
     max-width: 70%;
     min-width: 40px;
 }
-
+/*
 .profileImg {
     background-color: red;
 }
@@ -108,10 +114,12 @@ ul {
 .row.infoTitle {
     background-color: rgb(100, 255, 255, .3);
     border-radius: 3%;
+    min-height: 2em;
 }
 .row.data {
     background-color: rgb(255, 200, 100, .3);
     border-radius: 3%;
+    min-height: 3em;
 }
 
 .row.data div:nth-child(2) {
