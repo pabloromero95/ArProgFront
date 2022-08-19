@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background: linear-gradient(-45deg, #f8f7f6, #525fa0, #171a5081);
+    background: linear-gradient(-45deg, #e7e0ff, #525fa0, #4249d181);
     background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 5s ease infinite;
     z-index: -10;
     overflow-x: hidden;
 }
@@ -53,8 +53,10 @@ body {
     max-width: 15em;
     z-index: 10;
     background: linear-gradient(220deg, #d6e90c, #e7a008, #d8c91c81);
+    animation: gradient 2s ease infinite;
     border-radius: 50%;
-    margin-top: 5em;
+    margin-top: 4.4em;
+    padding-top: 4px;
     }
 
 .name {
@@ -62,7 +64,10 @@ body {
     animation-delay: 0ms;
     min-width: 18rem;
     text-align: center;
+    background-color: rgba(253, 253, 253, 0.5);
+    padding: 0 0.5em;
 }
+
 
 @keyframes moveToLeft {
     0% {
@@ -77,10 +82,6 @@ ul {
     list-style: none;
 }
 
-.header {
-    display:flex;
-}
-
 #aplogo {
     margin: 0 0 0 4em;
     
@@ -93,9 +94,23 @@ ul {
     margin-left: -1em;
 }
 
+.nav-item{
+    width:4.5em;
+    background-color: rgb(245, 245, 245, 0.5);
+}
+
+.nav-item a {
+    color: black;
+}
+
 .nav-item a:hover {
     color:mediumblue;
     text-decoration: underline;
+    background-color: rgb(245, 245, 245, 1);
+    background-size: auto;
+    transform: skew(-30deg);
+    transition:all 1s;
+    border-bottom: 3px solid rgba(45, 45, 215, 0.5);
 
 }
 
@@ -120,7 +135,7 @@ ul {
     min-height: 2em;
 }
 .row.data {
-    background-color: rgb(255, 200, 100, .3);
+    background-color: rgba(253, 253, 253, 0.5);
     border-radius: 3%;
     min-height: 3em;
 }
@@ -132,8 +147,9 @@ ul {
 }
 
 .butn {
-    margin:0.5em 1em 0 0;
-   
+    margin:auto;
+    padding-right: 1em;
+
 }
 
 .butn:hover {
@@ -144,7 +160,6 @@ ul {
     background-color: rgb(255, 200, 100, .3);
 
 }
-
 
 .about-text {
     min-width: 18rem;
