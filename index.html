@@ -5,197 +5,211 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRomero Devs</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container-fluid fixed-top">
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
-                  </li>
-                </ul>
-              </div>      
+    <section class="flag"> <!--Navbar also contained in flag-->
+        <div class="container-fluid fixed-top">
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+                        </ul>
+                    </div>      
+                </div>
+            </nav>  
+                <div id="aplogo">
+                    <img class="img-responsive" src=https://i.ibb.co/ypB6BpV/Logo-Ap-removebg-preview.png" alt="Logo-Ap-removebg-preview">
+                </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row" id="section-logo">
+                <div class="col-4"></div>
+                <div class="col-4 d-flex justify-content-center" id="prlogo"><img class="img-responsive justify-content-center" src="https://i.ibb.co/y49hC5F/Logo-removebg-preview-2.png"></div>
+                <div class="col-4"></div>
             </div>
-          </nav>  
-        <div id="aplogo">
-            <img class="img-responsive" src=https://i.ibb.co/ypB6BpV/Logo-Ap-removebg-preview.png" alt="Logo-Ap-removebg-preview">
-           
+        </div>
+    </section>
+
+    <section id="Intro">
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 d-flex justify-content-center"><h1 class="name">Hi! I'm Pablo Romero</h1></div>
+                <div class="col-2"></div>
+            </div>
+            <br>
+        
+            <div class="row d-flex justify-content-center" id="about">
+                <div class="col-2"></div>
+                <div class="col-8 d-flex justify-content-center about-text" data-aos="flip-down" data-aos-delay="100">
+                    <h4>About Me <br> <br>
+                        Passionate about technology, my job
+                    is to find the solutions that are needed
+                    in the most efficient way possible. <br>
+                        
+                        Since I discovered programming, I learnt
+                    that I can take the solutions anywhere
+                    no matter the distance, where and when
+                    they are required.</h4>
+                </div>
+                <div class="col-2"></div>
+            </div>  
+        </div>
+    </section>
+
+    <br>
+
+    <section id="work">
+        <br>
+        <br>
+        
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h3 >Check out my work</h3>
+                <div class="space">
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="container-fluid d-flex justify-content-center project">
+            <div class="row d-flex justify-content-center">
+                <div class="col-4 project_img"> Imagen</div>
+                <div class="col-4 project_data"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id natus nemo commodi architecto. Doloremque autem repellat at aliquid exercitationem provident odit ducimus temporibus sequi iure nostrum rerum, officiis vel ut.</div>
+            </div>
+        </div>
+
+    </section>
+
+    <br>
+
+    <section class="container-fluid flex-nowrap" id="info">
+        <div class="row infoTitle"> 
+            <div class="col-11 d-flex justify-content-start"><h4>Experience</h4></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-plus butn"></i></div>
+         </div>
+        <div class="row data flex-nowrap">
+            <div class="col-1 d-flex justify-content-center profileImg"></div>
+            <div class="col-10 d-flex justify-content-start"><span>Electronic Technician</span></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
+        </div>
+        <br>
+        <div class="row infoTitle flex-nowrap"> 
+            <div class="col-11 d-flex justify-content-start"><h4>Education</h4></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-plus butn"></i></div>
+         </div>
+        <div class="row data flex-nowrap">
+            <div class="col-1  d-flex justify-content-center profileImg"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEZqbCyFy_qoA/company-logo_200_200/0/1619744670050?e=1668038400&v=beta&t=lEzQVbEN61-QOi-OSntRDo7r96yAREPLsz6kC4ZQjes" alt=""></div>
+            <div class="col-10 d-flex justify-content-start"><span>Electronic Technician - E.T.17 D.E.13 "B.G.Cornelio Saavedra" 2008-2013</span> </div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
+        </div>
+        <br>
+        <div class="row data flex-nowrap">
+            <div class="col-1 d-flex justify-content-center profileImg"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFJtaUM_Seg8Q/company-logo_100_100/0/1650981288951?e=1668038400&v=beta&t=-c7Tik5z2JLq4PdRpQrSC4lcD_NuZni_PJEp7bBbj54" alt=""></div>
+            <div class="col-10 d-flex justify-content-start"><span>Software Engineer - "Techtitute University" 2021 - On course</span></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
+        </div>
+        <br>
+        <div class="row infoTitle flex-nowrap"> 
+            <div class="col-11 d-flex justify-content-start"><h4>Courses</h4></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-plus butn"></i></div>
+         </div>
+        <div class="row data flex-nowrap">
+            <div class="col-1 d-flex justify-content-center profileImg"><img src="https://play-lh.googleusercontent.com/MoaYYQjGtmGLhG9HbjCDKyj44kwHj1HfbCI2Am70elRm35vJ-u4y4X5uEJjP97MAAsU" alt=""></div>
+            <div class="col-10 d-flex justify-content-start"><span>Responsive web design - "Free Code Camp" 2021</span><img src="" alt=""></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
+        </div>
+        <br>
+        <div class="row data flex-nowrap">
+            <div class="col-1 d-flex justify-content-center profileImg"><img src="https://yt3.ggpht.com/9upo5zbtXzvItj8IMHF1X9hI95x4YOeGCApLk1DhMQCHftmJvf2GWmbJXrC1TKCrn-AyQ2txBw=s900-c-k-c0x00ffffff-no-rj" alt=""></div>
+            <div class="col-10 d-flex justify-content-start"><span>Fullstack Developer - "Argentina Programa" 2022 - On course </span></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
+        </div>
+        <br>
+        <div class="row data flex-nowrap">
+            <div class="col-1 d-flex justify-content-center profileImg"><img src="https://wmc-euw.b-cdn.net/profile/programacodoacodo/profile_pic.webp" alt=""></div>
+            <div class="col-10 d-flex justify-content-start"><span>Fullstack Developer - "Codo a Codo 4.0" 2022 - On course </span></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
+        </div>
+        <br>
+        <div class="row infoTitle flex-nowrap"> 
+            <div class="col-11 d-flex justify-content-start"><h4>Certificates</h4></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-plus butn"></i></div>
+         </div>
+        <div class="row data flex-nowrap">
+            <div class="col-1 d-flex justify-content-center profileImg"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFJtaUM_Seg8Q/company-logo_100_100/0/1650981288951?e=1668038400&v=beta&t=-c7Tik5z2JLq4PdRpQrSC4lcD_NuZni_PJEp7bBbj54"></div>
+            <div class="col-10 d-flex justify-content-start"><span>MCERL - C1 English Level - "Techtitute University" </span></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
+        </div>
+        <br>
+        <div class="row data flex-nowrap">
+            <div class="col-1 d-flex justify-content-center profileImg"><img src="https://pbs.twimg.com/media/EwoPuUGW8AUfyWx.jpg" alt=""></div>
+            <div class="col-10 d-flex justify-content-start"><span>MCERL - B2 English Level - "British Council" </span></div>
+            <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
+        </div>
+        <br>
+    </section>
+
+    <section class="container-fluid" id="contact">
+        <div class="container-fluid d-flex justify-content-center">
+            <h3>Let's work together</h3>
+        </div>
+        <div class="container-fluid d-flex justify-content-center">
+            <p>Feel free to contact me with your projects in mind</p>
         </div>
         
-    </div>
-    
-    <br><br><br><br><br><br><br><br><br>
-
-        <div id="Intro">
-                <div class="container-fluid">
-                    <div class="row" id="section-logo">
-                        <div class="col-4"></div>
-                        <div class="col-4 d-flex justify-content-center" id="prlogo"><img class="img-responsive justify-content-center" src="https://i.ibb.co/y49hC5F/Logo-removebg-preview-2.png"></div>
-                        <div class="col-4"></div>
-                    </div>
-                </div>
-                <br>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-8 d-flex justify-content-center"><h1 class="name">Hi! I'm Pablo Romero</h1></div>
-                        <div class="col-2"></div>
-                    </div>
-
-                    <br>
-                
-                    <div class="row">
-                        <div class="col-sm-12 d-flex justify-content-center" id="about"><h4>About Me</h4></div>
-                    </div>
-                    <br>
-                    <div class="row"> 
-                        <div class="col-2"></div>
-                        <div class="col-8 d-flex justify-content-center about-text">
-                            <h4>Passionate about technology, my job
-                            is to find the solutions that are needed
-                            in the most efficient way possible. <br>
-                            
-                            Since I discovered programming, I learnt
-                            that I can take the solutions anywhere
-                            no matter the distance, where and when
-                            they are required.</h4>
-                        </div>
-                        <div class="col-2"></div>
-                    </div>  
-                </div>
+        <div class="container-fluid d-flex justify-content-center">
+            <a
+            id="facebook-profile"
+            href="https://facebook.com/Pablo.Romero95"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a
+            id="github-profile"
+            href="https://github.com/pabloromero95"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:pabloromeroenjamio@gmail.com" class="btn contact-details"
+            ><i class="fas fa-at"></i> Mail me</a>
+            <a
+            id="linkedin-profile"
+            href="https://www.linkedin.com/in/pablo-romero-enjamio/"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-linkedin-in"></i> LinkedIn</a>
         </div>
+    </section>
 
-            <br>
+    <footer class="container-fluid d-flex justify-content-center" id="Footer">
+        Disclaimer: This portfolio was created for the ArgentinaPrograma Project.
+    </footer>
 
-        <div class="container-fluid flex-nowrap" id="info">
-                    <div class="row infoTitle"> 
-                        <div class="col-11 d-flex justify-content-start"><h4>Experience</h4></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-plus butn"></i></div>
-                     </div>
-
-                    <div class="row data flex-nowrap">
-                        <div class="col-1 d-flex justify-content-center profileImg"></div>
-                        <div class="col-10 d-flex justify-content-start"><span>Electronic Technician</span></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
-                    </div>
-                    <br>
-                    <div class="row infoTitle flex-nowrap"> 
-                        <div class="col-11 d-flex justify-content-start"><h4>Education</h4></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-plus butn"></i></div>
-                     </div>
-
-                    <div class="row data flex-nowrap">
-                        <div class="col-1  d-flex justify-content-center profileImg"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEZqbCyFy_qoA/company-logo_200_200/0/1619744670050?e=1668038400&v=beta&t=lEzQVbEN61-QOi-OSntRDo7r96yAREPLsz6kC4ZQjes" alt=""></div>
-                        <div class="col-10 d-flex justify-content-start"><span>Electronic Technician - E.T.17 D.E.13 "B.G.Cornelio Saavedra" 2008-2013</span> </div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
-                    </div>
-                    <br>
-                    <div class="row data flex-nowrap">
-                        <div class="col-1 d-flex justify-content-center profileImg"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFJtaUM_Seg8Q/company-logo_100_100/0/1650981288951?e=1668038400&v=beta&t=-c7Tik5z2JLq4PdRpQrSC4lcD_NuZni_PJEp7bBbj54" alt=""></div>
-                        <div class="col-10 d-flex justify-content-start"><span>Software Engineer - "Techtitute University" 2021 - On course</span></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
-                    </div>
-                    <br>
-                    <div class="row infoTitle flex-nowrap"> 
-                        <div class="col-11 d-flex justify-content-start"><h4>Courses</h4></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-plus butn"></i></div>
-                     </div>
-
-                    <div class="row data flex-nowrap">
-                        <div class="col-1 d-flex justify-content-center profileImg"><img src="https://play-lh.googleusercontent.com/MoaYYQjGtmGLhG9HbjCDKyj44kwHj1HfbCI2Am70elRm35vJ-u4y4X5uEJjP97MAAsU" alt=""></div>
-                        <div class="col-10 d-flex justify-content-start"><span>Responsive web design - "Free Code Camp" 2021</span><img src="" alt=""></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
-                    </div>
-                    <br>
-                    <div class="row data flex-nowrap">
-                        <div class="col-1 d-flex justify-content-center profileImg"><img src="https://yt3.ggpht.com/9upo5zbtXzvItj8IMHF1X9hI95x4YOeGCApLk1DhMQCHftmJvf2GWmbJXrC1TKCrn-AyQ2txBw=s900-c-k-c0x00ffffff-no-rj" alt=""></div>
-                        <div class="col-10 d-flex justify-content-start"><span>Fullstack Developer - "Argentina Programa" 2022 - On course </span></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
-                    </div>
-                    <br>
-                    <div class="row data flex-nowrap">
-                        <div class="col-1 d-flex justify-content-center profileImg"><img src="https://wmc-euw.b-cdn.net/profile/programacodoacodo/profile_pic.webp" alt=""></div>
-                        <div class="col-10 d-flex justify-content-start"><span>Fullstack Developer - "Codo a Codo 4.0" 2022 - On course </span></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
-                    </div>
-                    <br>
-                    <div class="row infoTitle flex-nowrap"> 
-                        <div class="col-11 d-flex justify-content-start"><h4>Certificates</h4></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-plus butn"></i></div>
-                     </div>
-                    <div class="row data flex-nowrap">
-                        <div class="col-1 d-flex justify-content-center profileImg"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFJtaUM_Seg8Q/company-logo_100_100/0/1650981288951?e=1668038400&v=beta&t=-c7Tik5z2JLq4PdRpQrSC4lcD_NuZni_PJEp7bBbj54"></div>
-                        <div class="col-10 d-flex justify-content-start"><span>MCERL - C1 English Level - "Techtitute University" </span></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
-                    </div>
-                    <br>
-                    <div class="row data flex-nowrap">
-                        <div class="col-1 d-flex justify-content-center profileImg"><img src="https://pbs.twimg.com/media/EwoPuUGW8AUfyWx.jpg" alt=""></div>
-                        <div class="col-10 d-flex justify-content-start"><span>MCERL - B2 English Level - "British Council" </span></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-regular fa-pen-to-square butn"></i><i class="fa-regular fa-trash-can butn"></i></div>
-                    </div>
-                    <br>
-        </div>
-        <div class="container-fluid" id="contact">
-            <div class="container-fluid d-flex justify-content-center">
-                <h3>Let's work together</h3>
-            </div>
-
-            <div class="container-fluid d-flex justify-content-center">
-                <p>Feel free to contact me with your projects in mind</p>
-            </div>
-        </div>
-                
-        <div class="container-fluid" id="Footer">
-            <div class="container-fluid d-flex justify-content-center">
-                <a
-                id="facebook-profile"
-                href="https://facebook.com/Pablo.Romero95"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-facebook-square"></i> Facebook</a>
-
-                <a
-                id="github-profile"
-                href="https://github.com/pabloromero95"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-github"></i> GitHub</a>
-
-                <a href="mailto:pabloromeroenjamio@gmail.com" class="btn contact-details"
-                ><i class="fas fa-at"></i> Mail me</a>
-
-                <a
-                id="linkedin-profile"
-                href="https://www.linkedin.com/in/pablo-romero-enjamio/"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-            </div>
-        </div>
-
-        <footer class="container-fluid d-flex justify-content-center">
-            Disclaimer: This portfolio was created for the ArgentinaPrograma Project.
-        </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

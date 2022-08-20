@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background: linear-gradient(-45deg, #e7e0ff, #525fa0, #4249d181);
+    background: linear-gradient(-55deg, #f8f7f6, #525fa0, #171a5081);
     background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+	animation: gradient 4s ease infinite;
     z-index: -10;
     overflow-x: hidden;
 }
@@ -21,7 +21,9 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
+.flag {
+    height: 80vh;
+}
 #prlogo {
     width: 40%;
     height: 40%;
@@ -34,7 +36,7 @@ body {
 #section-logo {
     background-color: white;
     min-height: 24em;
-    margin-top:35px;
+    margin-top:30vh;
 
 }
 
@@ -53,10 +55,8 @@ body {
     max-width: 15em;
     z-index: 10;
     background: linear-gradient(220deg, #d6e90c, #e7a008, #d8c91c81);
-    animation: gradient 2s ease infinite;
     border-radius: 50%;
-    margin-top: 4.4em;
-    padding-top: 4px;
+    margin-top: 5em;
     }
 
 .name {
@@ -64,10 +64,7 @@ body {
     animation-delay: 0ms;
     min-width: 18rem;
     text-align: center;
-    background-color: rgba(253, 253, 253, 0.5);
-    padding: 0 0.5em;
 }
-
 
 @keyframes moveToLeft {
     0% {
@@ -82,6 +79,10 @@ ul {
     list-style: none;
 }
 
+.header {
+    display:flex;
+}
+
 #aplogo {
     margin: 0 0 0 4em;
     
@@ -94,23 +95,9 @@ ul {
     margin-left: -1em;
 }
 
-.nav-item{
-    width:4.5em;
-    background-color: rgb(245, 245, 245, 0.5);
-}
-
-.nav-item a {
-    color: black;
-}
-
 .nav-item a:hover {
     color:mediumblue;
     text-decoration: underline;
-    background-color: rgb(245, 245, 245, 1);
-    background-size: auto;
-    transform: skew(-30deg);
-    transition:all 1s;
-    border-bottom: 3px solid rgba(45, 45, 215, 0.5);
 
 }
 
@@ -119,15 +106,29 @@ ul {
     max-width: 70%;
     min-width: 40px;
 }
-/*
-.profileImg {
+
+.project_img {
+    height: 40vh;
+    width: 25vw;
+    min-width: 15em;
     background-color: red;
+    margin: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.row.infoTitle {
+.project_data {
     background-color: blue;
+    height: 40vh;
+    width: 25vw;
+    min-width: 15em;
+    margin: .3em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
 }
-*/
 
 .row.infoTitle {
     background-color: rgb(100, 255, 255, .3);
@@ -135,7 +136,7 @@ ul {
     min-height: 2em;
 }
 .row.data {
-    background-color: rgba(253, 253, 253, 0.5);
+    background-color: rgb(255, 200, 100, .3);
     border-radius: 3%;
     min-height: 3em;
 }
@@ -147,9 +148,8 @@ ul {
 }
 
 .butn {
-    margin:auto;
-    padding-right: 1em;
-
+    margin:0.5em 1em 0 0;
+   
 }
 
 .butn:hover {
@@ -160,6 +160,7 @@ ul {
     background-color: rgb(255, 200, 100, .3);
 
 }
+
 
 .about-text {
     min-width: 18rem;
