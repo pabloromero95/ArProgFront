@@ -128,7 +128,7 @@ ul {
 }
 
 .project_data {
-    background-color:  rgb(255, 200, 100, .3);
+
     height: 40vh;
     width: 40vw;
     min-width: 15em;
@@ -138,8 +138,20 @@ ul {
     text-align: center;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+
+
+}
+
+.project_data h3 {
+    background-color:  rgb(255, 200, 100, .3);
+    height: 10vh;
+    width: 30vw;
+    min-width:10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 10px 10px 5px #525fa0;
+    border-radius: 10px;
 }
 
 .row.infoTitle {
