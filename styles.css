@@ -29,8 +29,6 @@ body {
     height: 40%;
     margin:0 0 0 -3%;
     justify-content: center;
-    animation: moveToRight 2s ease-in-out;
-    animation-delay: 0ms;  
 }
 
 #section-logo {
@@ -62,8 +60,6 @@ body {
     }
 
 .name {
-    animation: moveToLeft 3s ease-in;
-    animation-delay: 0ms;
     min-width: 18rem;
     text-align: center;
 }
