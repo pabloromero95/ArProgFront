@@ -28,7 +28,9 @@ body {
     width: 40%;
     height: 40%;
     margin:0 0 0 -3%;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #section-logo {
@@ -55,7 +57,7 @@ body {
     background: linear-gradient(220deg, #d6e90c, #d8c91c81);
     animation: gradient 1s ease infinite;
     border-radius: 50%;
-    margin-top: 3.5em;
+    margin-top: 2em;
     padding-top: 5px;
     }
 
@@ -99,6 +101,28 @@ ul {
 
 }
 
+.titleline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 7vh;
+    background-color: rgba(225, 223, 220, 0.6);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #525fa0;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 40vh;
+    background-color: rgba(225, 223, 220, 0.6);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #525fa0;
+}
+
 .profileImg img {
     object-fit: scale-down;
     max-width: 70%;
@@ -139,7 +163,7 @@ ul {
 }
 
 .project_data h3 {
-    background-color:  rgb(255, 200, 100, .3);
+    background-color:  rgba(225, 223, 220, 0.7);
     height: 10vh;
     width: 30vw;
     min-width:10em;
@@ -156,7 +180,7 @@ ul {
     min-height: 2em;
 }
 .row.data {
-    background-color: rgb(255, 200, 100, .3);
+    background-color: rgba(225, 223, 220, 0.7);
     border-radius: 3%;
     min-height: 3em;
 }
@@ -177,8 +201,8 @@ ul {
 }
 .btn:hover {
     color:blue;
-    background-color: rgb(255, 200, 100, .3);
-
+    background-color: rgba(225, 223, 220, 0.7);
+3
 }
 
 
