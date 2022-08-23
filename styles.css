@@ -3,11 +3,19 @@ html {
 }
 
 body {
-    background: linear-gradient(-55deg, #f8f7f6, #525fa0, #171a5081);
-    background-size: 400% 400%;
-	animation: gradient 4s ease infinite;
+    overflow-x: hidden;
+    background-color: #7481c4;
+}
+
+.flag {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-80deg, #f8f7f6, #525fa0, #171a5081);
+    background-size: 200% 200%;
+	animation: gradient 5s ease infinite;
     z-index: -10;
     overflow-x: hidden;
+    border-bottom: 3px solid black;
 }
 
 @keyframes gradient {
@@ -21,9 +29,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
-.flag {
-    height: 80vh;
-}
+
 #prlogo {
     width: 40%;
     height: 40%;
@@ -33,61 +39,38 @@ body {
     align-items: center;
 }
 
-#prlogo img {
-    box-sizing:content-box;
-    max-height: 15em;
-    max-width: 15em;
-    z-index: 10;
-    background: linear-gradient(220deg, #d6e90c, #d8c91c81);
-    animation: gradient 1s ease infinite;
-    border-radius: 50%;
-    margin-top: 12em;
-    padding-top: 5px;
-    }
-
 #section-logo {
     background-color: white;
     height: 40vh;
     margin-top:30vh;
-
 }
 
-@keyframes moveToRight {
-    0% {
-        transform: translateX(-250%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
+#prlogo img {
+    max-height: 35vh;
+    max-width: 35vw;
+    min-width: 240px;
+    z-index: 10;
+    background: linear-gradient(220deg, #d6e90c, #d8c91c81);
+    animation: gradient 1s ease infinite;
+    border-radius: 50%;
+    padding-top: 5px;
+    margin: 3vh;
 }
 
-
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .name {
     min-width: 18rem;
     text-align: center;
 }
 
-@keyframes moveToLeft {
-    0% {
-        transform: translateX(400%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
-}
-
-ul {
-    list-style: none;
-}
-
-.header {
-    display:flex;
-}
 
 #aplogo {
-    margin: 0 0 0 4em;
-    
+    margin-left: 4em;  
 }
 
 #aplogo img {
@@ -97,18 +80,30 @@ ul {
     margin-left: -1em;
 }
 
-.nav-item a:hover {
+.nav-link:hover {
     color:mediumblue;
     text-decoration: underline;
 
+}
+.nav-link span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(225, 223, 220, 0.8);
+    margin: 8px 2px 2px 2px;
+    padding-top: 4px;
+    width: 4em;
+    border-radius:5px 2px;
 }
 
 .titleline {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    width: 25vw;
+    min-width: 15em;
     height: 7vh;
+    min-height: 4em;
     background-color: rgba(225, 223, 220, 0.6);
     border-radius: 20px;
     box-shadow: 10px 10px 5px #525fa0;
@@ -118,10 +113,13 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    width: 25vw;
+    min-width: 15em;
     height: 40vh;
+    min-height: 25em;
     background-color: rgba(225, 223, 220, 0.6);
     border-radius: 20px;
+    font-size: 1em;
     box-shadow: 10px 10px 5px #525fa0;
 }
 
@@ -160,11 +158,9 @@ ul {
     text-align: center;
     align-items: center;
     justify-content: center;
-
-
 }
 
-.project_data h3 {
+.project_data p {
     background-color:  rgba(225, 223, 220, 0.7);
     height: 10vh;
     width: 30vw;
@@ -174,6 +170,7 @@ ul {
     justify-content: center;
     box-shadow: 10px 10px 5px #525fa0;
     border-radius: 10px;
+    font-size: large;
 }
 
 .row.infoTitle {
@@ -194,7 +191,10 @@ ul {
 }
 
 .butn {
-    margin:0.5em 1em 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 1em 0 0;
    
 }
 
@@ -205,7 +205,6 @@ ul {
     color:blue;
     background-color: rgba(225, 223, 220, 0.7);
 }
-
 
 .about-text {
     min-width: 18rem;
